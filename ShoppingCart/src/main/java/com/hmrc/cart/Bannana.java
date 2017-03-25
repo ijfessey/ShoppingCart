@@ -5,6 +5,7 @@ public class Bannana implements CartItem {
 	private String description;
 	private int priceInPence;
 	private String colour;
+	private String weight;
 
 	public String getDescription() {
 		return description;
@@ -25,6 +26,13 @@ public class Bannana implements CartItem {
 	public void setColour(String colour) {
 		this.colour = colour;
 	}
+	public String getWeight() {
+		return weight;
+	}
+	public void setWeight(String weight) {
+		this.weight = weight;
+	}
+	
 	
 
 }
