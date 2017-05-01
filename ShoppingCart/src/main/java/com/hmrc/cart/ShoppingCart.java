@@ -13,7 +13,9 @@ public class ShoppingCart {
 	
 	private Map<String,CartItem> shoppingItems = new HashMap<>();
 	
+
 	// UC-3333 comment for this commit
+	// UC-2222 comment for this commit
 	public void setUp() {
 		
 		Orange orange = new Orange();
