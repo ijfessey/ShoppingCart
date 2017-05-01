@@ -42,6 +42,16 @@ public class Bannana implements CartItem {
 	public void setWeight(String weight) {
 		this.weight = weight;
 	}
+	@Override
+	public void setStockNumber(String stockNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String getStockNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 

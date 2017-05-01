@@ -17,4 +17,14 @@ public class Orange implements CartItem {
 	public void setPriceInPence(int priceInPence) {
 		this.priceInPence = priceInPence;
 	}
+	@Override
+	public void setStockNumber(String stockNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String getStockNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
