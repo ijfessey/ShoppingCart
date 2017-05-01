@@ -4,6 +4,7 @@ public class Pear implements CartItem {
 
 	private String description;
 	private int priceInPence;
+	private String supplier;
 
 	public String getDescription() {
 		return description;
