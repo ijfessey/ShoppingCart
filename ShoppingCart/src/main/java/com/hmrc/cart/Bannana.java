@@ -7,6 +7,7 @@ public class Bannana implements CartItem {
 	private String colour;
 	private int length;
 	private String weight;
+	private String supplier;
 
 
 	public String getDescription() {
