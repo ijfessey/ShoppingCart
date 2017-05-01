@@ -18,5 +18,15 @@ public class Apple implements CartItem {
 		this.priceInPence = price;
 		
 	}
+	@Override
+	public void setStockNumber(String stockNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String getStockNumber() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
